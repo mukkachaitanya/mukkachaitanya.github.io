@@ -5,7 +5,7 @@
     <link>https://mukkachaitanya.github.io/tags/hadoop/</link>
     <description>Recent content in Hadoop on Chaitanya Mukka&#39;s HomePage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 31 May 2018 21:20:33 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 27 May 2018 21:20:33 +0530</lastBuildDate>
     
 	<atom:link href="https://mukkachaitanya.github.io/tags/hadoop/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,10 +13,12 @@
     <item>
       <title>Week 1 : Setting Up Hadoop</title>
       <link>https://mukkachaitanya.github.io/posts/week-1-setting-up-hadoop/</link>
-      <pubDate>Thu, 31 May 2018 21:20:33 +0530</pubDate>
+      <pubDate>Sun, 27 May 2018 21:20:33 +0530</pubDate>
       
       <guid>https://mukkachaitanya.github.io/posts/week-1-setting-up-hadoop/</guid>
-      <description>Hello world</description>
+      <description>Hi Everyone!
+The first week of my internship IISc as a project trainee has ended. There was some exciting work this week. We completed introduction to Clay Codes and moved forward to work with setting up Hadoop.
+Setting up Hadoop came with various hurdles. There weren&amp;rsquo;t many good tutorials online which talked about developmemt setup of hadoop. Build dependecies created serious problems on Ubuntu 18.04. Spent more than a day to figure out it&amp;rsquo;s the distribution&amp;rsquo;s issue.</description>
     </item>
     
   </channel>
