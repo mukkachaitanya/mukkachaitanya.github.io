@@ -2,13 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Chaitanya Mukka&#39;s HomePage</title>
-    <link>https://mukkachaitanya.github.io/posts/</link>
+    <link>https://mukkachaitanya.github.io/posts/index.xml</link>
     <description>Recent content in Posts on Chaitanya Mukka&#39;s HomePage</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 27 May 2018 21:20:33 +0530</lastBuildDate>
-    
-	<atom:link href="https://mukkachaitanya.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://mukkachaitanya.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Week 1 : Setting Up Hadoop</title>
@@ -16,9 +14,18 @@
       <pubDate>Sun, 27 May 2018 21:20:33 +0530</pubDate>
       
       <guid>https://mukkachaitanya.github.io/posts/week-1-setting-up-hadoop/</guid>
-      <description>Hi Everyone!
-The first week of my internship IISc as a project trainee has ended. There was some exciting work this week. We completed introduction to Clay Codes and moved forward to work with setting up Hadoop.
-Setting up Hadoop came with various hurdles. There weren&amp;rsquo;t many good tutorials online which talked about developmemt setup of hadoop. Build dependecies created serious problems on Ubuntu 18.04. Spent more than a day to figure out it&amp;rsquo;s the distribution&amp;rsquo;s issue.</description>
+      <description>&lt;p&gt;Hi Everyone!&lt;/p&gt;
+
+&lt;p&gt;The first week of my internship IISc as a project trainee has ended. There was some exciting work this week. We completed introduction to Clay Codes and moved forward to work with setting up Hadoop.&lt;/p&gt;
+
+&lt;p&gt;Setting up Hadoop came with various hurdles. There weren&amp;rsquo;t many good tutorials online which talked about developmemt setup of hadoop. Build dependecies created serious problems on Ubuntu 18.04. Spent more than a day to figure out it&amp;rsquo;s the distribution&amp;rsquo;s issue. Still need to figure out what went wrong. Tried setting it up using out of the box docker setup, available in the Hadoop&amp;rsquo;s repo, but didn&amp;rsquo;t seem to work well.&lt;/p&gt;
+
+&lt;p&gt;Later resorted to setting it up on a vagrant Ubuntu Xenial machine, all was smooth then. Faced some common issues related to versions of various dependencies and found the solutions to most of them online.&lt;/p&gt;
+
+&lt;p&gt;Joined the Hadoop developer &lt;a href=&#34;https://hadoop.apache.org/mailing_lists.html&#34;&gt;mailing list&lt;/a&gt; late into the week. Positive that it would help us a lot.&lt;/p&gt;
+
+&lt;p&gt;I will be writing a tutorial later on the setup to ease out the process for other new Hadoop developers.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -27,9 +34,20 @@ Setting up Hadoop came with various hurdles. There weren&amp;rsquo;t many good t
       <pubDate>Sat, 19 May 2018 21:11:50 +0530</pubDate>
       
       <guid>https://mukkachaitanya.github.io/posts/week-0-internship-begins/</guid>
-      <description>Hi everyone!
-I would be writing this blog series to document my internship at Code and Design Lab, IISc.
-The internship came out to me as a surprise as Dr.P.V.Kumar replied to my mail which was over a month old and I had to have a interview on the day my semester exams ended. Luckily I could do well at the unprepared interview, taken by Myna Vajha et al., and well got selected for the internship.</description>
+      <description>&lt;p&gt;Hi everyone!&lt;/p&gt;
+
+&lt;p&gt;I would be writing this blog series to document my internship at Code and Design Lab, IISc.&lt;/p&gt;
+
+&lt;p&gt;The internship came out to me as a surprise as &lt;a href=&#34;http://ece.iisc.ernet.in/~vijay/&#34;&gt;Dr.P.V.Kumar&lt;/a&gt; replied to my mail which was over a month old and I had to have a interview on the day my semester exams ended. Luckily I could do well at the unprepared interview, taken by Myna Vajha et al., and well got selected for the internship.&lt;/p&gt;
+
+&lt;p&gt;For the next two months I would be working to implement the theoretical framework of &lt;a href=&#34;https://www.usenix.org/conference/fast18/presentation/vajha&#34;&gt;Clay Codes&lt;/a&gt;, which are a high rate MSR (maximum regenerating codes) erasure codes for distributed storage, in HDFS in Hadoop 3.0.&lt;/p&gt;
+
+&lt;p&gt;Erasure codes in storage for distributed systems perform very well over the popular 3x replication and are known to reduce storage overheads significantly to less than 50% compared to that of 200% former. But they also come with computation and network bandwidth considerations. MSR codes are vector codes which try to optimise the repair bandwidth, which is the amount of data required to recover lost data nodes (storage units). Erasure codes were introduced to Hadoop in its 3.0 release.&lt;/p&gt;
+
+&lt;p&gt;These initial days at my internship were spent setting up my PC and getting it ready for installation of Hadoop. Also spent the major part of the week in understaning Erasure coding, through a lecture series by Vinayak and getting settled with the team. Hope to learn more about Clay Codes and their framework. Will try to write a post compiling the details about the same.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s all folks for this week.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

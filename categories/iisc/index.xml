@@ -2,13 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iisc on Chaitanya Mukka&#39;s HomePage</title>
-    <link>https://mukkachaitanya.github.io/categories/iisc/</link>
+    <link>https://mukkachaitanya.github.io/categories/iisc/index.xml</link>
     <description>Recent content in Iisc on Chaitanya Mukka&#39;s HomePage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 27 May 2018 21:20:33 +0530</lastBuildDate>
-    
-	<atom:link href="https://mukkachaitanya.github.io/categories/iisc/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://mukkachaitanya.github.io/categories/iisc/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Week 1 : Setting Up Hadoop</title>
@@ -16,9 +13,18 @@
       <pubDate>Sun, 27 May 2018 21:20:33 +0530</pubDate>
       
       <guid>https://mukkachaitanya.github.io/posts/week-1-setting-up-hadoop/</guid>
-      <description>Hi Everyone!
-The first week of my internship IISc as a project trainee has ended. There was some exciting work this week. We completed introduction to Clay Codes and moved forward to work with setting up Hadoop.
-Setting up Hadoop came with various hurdles. There weren&amp;rsquo;t many good tutorials online which talked about developmemt setup of hadoop. Build dependecies created serious problems on Ubuntu 18.04. Spent more than a day to figure out it&amp;rsquo;s the distribution&amp;rsquo;s issue.</description>
+      <description>&lt;p&gt;Hi Everyone!&lt;/p&gt;
+
+&lt;p&gt;The first week of my internship IISc as a project trainee has ended. There was some exciting work this week. We completed introduction to Clay Codes and moved forward to work with setting up Hadoop.&lt;/p&gt;
+
+&lt;p&gt;Setting up Hadoop came with various hurdles. There weren&amp;rsquo;t many good tutorials online which talked about developmemt setup of hadoop. Build dependecies created serious problems on Ubuntu 18.04. Spent more than a day to figure out it&amp;rsquo;s the distribution&amp;rsquo;s issue. Still need to figure out what went wrong. Tried setting it up using out of the box docker setup, available in the Hadoop&amp;rsquo;s repo, but didn&amp;rsquo;t seem to work well.&lt;/p&gt;
+
+&lt;p&gt;Later resorted to setting it up on a vagrant Ubuntu Xenial machine, all was smooth then. Faced some common issues related to versions of various dependencies and found the solutions to most of them online.&lt;/p&gt;
+
+&lt;p&gt;Joined the Hadoop developer &lt;a href=&#34;https://hadoop.apache.org/mailing_lists.html&#34;&gt;mailing list&lt;/a&gt; late into the week. Positive that it would help us a lot.&lt;/p&gt;
+
+&lt;p&gt;I will be writing a tutorial later on the setup to ease out the process for other new Hadoop developers.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
